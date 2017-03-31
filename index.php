@@ -1,5 +1,3 @@
-<?php 
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +9,11 @@
     <title>Webdeveloper</title>
 </head>
 <body>
+
+<?php 
+    include 'includes/example_01.php';
+
+?>
     
 </body>
 </html>
