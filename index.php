@@ -9,11 +9,11 @@
     <title>Webdeveloper</title>
 </head>
 <body>
-<h2>01 Loops</h2>
 
+<h2>01 Loops</h2>
 <?php 
     include 'includes/example_01.php';
 ?>  
-  
+
 </body>
 </html>
