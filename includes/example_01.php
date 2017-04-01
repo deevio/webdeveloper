@@ -26,9 +26,21 @@ for($i = 0; $i < count($friends); $i++) {
 echo '</table>';
 
 //numbers
-
 for($n = 1; $n < 101; $n++) {
-    echo $n. '<br>';
+
+    //all
+    //echo $n. '<br>';
+
+    //divided by 2
+    if($n % 2 === 0) {
+        echo $n. '<br>';
+    }
+
+    //divided by 3
+    if($n % 3 === 0) {
+       // echo $n. '<br>';
+    }
+
 };
 
 
