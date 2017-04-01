@@ -11,9 +11,11 @@
 <body>
 
 <h2>01 Loops</h2>
+<p>
 <?php 
     include 'includes/example_01.php';
-?>  
+?>
+</p>  
 
 </body>
 </html>
