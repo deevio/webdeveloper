@@ -32,7 +32,7 @@ echo '</table>';
 //numbers
 echo '<h3>numbers</h3>';
 
-for($n = 1; $n < 101; $n++) {
+for($n = 1; $n <= 100; $n++) {
 
     //all
     //echo $n. '<br>';
