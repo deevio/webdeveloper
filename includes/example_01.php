@@ -2,6 +2,8 @@
 //colors
 $colors = ['blue', 'green', 'red', 'black', ];
 
+echo '<h3>colors</h3>';
+
 for($a = 0; $a < count($colors); $a++) {    
     for($b = 0; $b < count($colors); $b++) {       
 
@@ -15,6 +17,8 @@ for($a = 0; $a < count($colors); $a++) {
 //friends
 $friends = ['Jano', 'Fero', 'Peto', 'Ales', 'Riso', 'Marian', 'Kristian', 'Marek', 'Karol', 'Lubo'];
 
+echo '<h3>friends</h3>';
+
 echo '<table>';
 for($i = 0; $i < count($friends); $i++) {    
     echo '<tr>';
@@ -26,6 +30,8 @@ for($i = 0; $i < count($friends); $i++) {
 echo '</table>';
 
 //numbers
+echo '<h3>numbers</h3>';
+
 for($n = 1; $n < 101; $n++) {
 
     //all
