@@ -32,7 +32,9 @@ div.content {
 table td:hover {
   background-color: #86c5da;
   cursor: pointer;
-  transition: background-color 0.5s ease-out;
-  -webkit-transition: background-color 0.5s ease-out; }
+  transition: background-color 0.2s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out; }
+  table td:hover:active {
+    background-color: lightgreen; }
 
 /*# sourceMappingURL=style.css.map */

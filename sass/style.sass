@@ -1,5 +1,6 @@
 //var
 $bgc: lightblue
+$secondary-color: lightgreen
 $font-color: #000
 
 *
@@ -37,7 +38,10 @@ div.content
 table td:hover
     background-color: darken($bgc, 10%)
     cursor: pointer
-    transition: background-color .5s ease-out
-    -webkit-transition: background-color .5s ease-out
+    transition: background-color .2s ease-in-out
+    -webkit-transition: background-color .2s ease-in-out
+    &:active        
+        background-color: $secondary-color
+        
 
     
