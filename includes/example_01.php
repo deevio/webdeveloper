@@ -1,4 +1,5 @@
 <?php
+
 //colors
 $colors = ['blue', 'green', 'red', 'black', ];
 
@@ -39,12 +40,12 @@ for($n = 1; $n <= 100; $n++) {
 
     //divided by 2
     if($n % 2 === 0) {
-        echo $n. '<br>';
+       // echo $n. '<br>';
     }
 
     //divided by 3
     if($n % 3 === 0) {
-       // echo $n. '<br>';
+        echo $n. '<br>';
     }
 
 };

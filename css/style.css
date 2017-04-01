@@ -12,8 +12,8 @@
 html, body {
   width: 100%;
   height: 100%;
-  background: -webkit-linear-gradient(left, lightblue, white);
-  background: linear-gradient(left, lightblue, white); }
+  background: -webkit-linear-gradient(to right, lightblue, white);
+  background: linear-gradient(to right, lightblue, white); }
 
 h2 {
   font-size: 1.6rem;
@@ -26,7 +26,13 @@ h3 {
   margin: 1.3rem 0; }
 
 div.content {
-  margin: 2rem 3rem;
+  margin: 1rem 2rem;
   position: relative; }
+
+table td:hover {
+  background-color: #86c5da;
+  cursor: pointer;
+  transition: background-color 0.5s ease-out;
+  -webkit-transition: background-color 0.5s ease-out; }
 
 /*# sourceMappingURL=style.css.map */
