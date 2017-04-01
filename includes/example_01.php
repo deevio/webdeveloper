@@ -31,23 +31,32 @@ for($i = 0; $i < count($friends); $i++) {
 echo '</table>';
 
 //numbers
+
 echo '<h3>numbers</h3>';
 
-for($n = 1; $n <= 100; $n++) {
 
+echo '<h4>all</h4>';
+
+for($n1 = 1; $n1 <= 100; $n1++) {
     //all
-    //echo $n. '<br>';
+    echo $n1. '<br>';
+};
 
+echo '<h4>divided by 2</h4>';
+
+for($n2 = 1; $n2 <= 100; $n2++) {
     //divided by 2
-    if($n % 2 === 0) {
-       // echo $n. '<br>';
+    if($n2 % 2 === 0) {
+       echo $n2. '<br>';
     }
+};
 
+echo '<h4>divided by 3</h4>';
+for($n3 = 1; $n3 <= 100; $n3++) {
     //divided by 3
-    if($n % 3 === 0) {
-        echo $n. '<br>';
+    if($n3 % 3 === 0) {
+        echo $n3. '<br>';
     }
-
 };
 
 
