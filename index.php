@@ -10,10 +10,16 @@
 </head>
 <body>
 
+
 <div class="content">
+
     <h2>01 Loops</h2>
     <?php 
         include 'includes/example_01.php';
+    ?>
+
+    <?php 
+        include 'includes/menu.php';
     ?>
 </div>  
 
