@@ -10,12 +10,12 @@
 </head>
 <body>
 
+<div class="content">
 <h2>01 Loops</h2>
-<p>
 <?php 
     include 'includes/example_01.php';
 ?>
-</p>  
+</div>  
 
 </body>
 </html>

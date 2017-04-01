@@ -12,7 +12,6 @@ for($a = 0; $a < count($colors); $a++) {
     }
 }
 
-
 //friends
 $friends = ['Jano', 'Fero', 'Peto', 'Ales', 'Riso', 'Marian', 'Kristian', 'Marek', 'Karol', 'Lubo'];
 
@@ -25,5 +24,13 @@ for($i = 0; $i < count($friends); $i++) {
     echo '</tr>';  
 };
 echo '</table>';
+
+//numbers
+
+for($n = 1; $n < 101; $n++) {
+    echo $n. '<br>';
+};
+
+
 
 ?>
