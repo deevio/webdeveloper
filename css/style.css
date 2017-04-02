@@ -46,4 +46,51 @@ table td:hover {
   table td:hover:active {
     background-color: lightgreen; }
 
+div#dot {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  width: 4rem;
+  height: 4rem;
+  border: 0.16rem solid lightblue;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  line-height: 4rem;
+  text-align: center;
+  font-size: 2rem;
+  color: lightblue;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  z-index: 0; }
+  div#dot:hover {
+    box-shadow: 0 0 0.3rem 0.1rem lightgreen;
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transform: rotate(360deg); }
+
+div#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: lightgreen;
+  z-index: 1;
+  text-align: center;
+  padding: 2rem;
+  -webkit-transform: translate3d(0, 100vh, 0);
+  transform: translate3d(0, 100vh, 0);
+  transition: -webkit-transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94);
+  transition: transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94);
+  transition: transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94), -webkit-transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94); }
+  div#menu ul li a {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none; }
+
+div#menu.show {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0); }
+
 /*# sourceMappingURL=style.css.map */

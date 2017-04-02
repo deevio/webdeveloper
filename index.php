@@ -13,13 +13,14 @@
 
 <div class="content">
 
-    <h2>01 Loops</h2>
-    <?php 
-        include 'includes/example_01.php';
-    ?>
-
     <?php 
         include 'includes/menu.php';
+    ?>
+
+    <h2>01 Loops <a name="example_01" style="opacity: 0;">.</a></h2>
+    
+    <?php 
+        include 'includes/example_01.php';
     ?>
 </div>  
 

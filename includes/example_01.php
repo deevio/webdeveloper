@@ -6,12 +6,10 @@ $colors = ['blue', 'green', 'red', 'black', ];
 echo '<h3>colors</h3>';
 
 for($a = 0; $a < count($colors); $a++) {    
-    for($b = 0; $b < count($colors); $b++) {       
-
-    echo '<ul>';
-    echo '<li class="' . $colors[$b] . '"> ' . $colors[$b]. ' </li>';
-    echo '</ul>';
-
+    for($b = 0; $b < count($colors); $b++) { 
+        echo '<ul>';
+        echo '<li class="' . $colors[$b] . '"> ' . $colors[$b]. ' </li>';
+        echo '</ul>';
     }
 }
 
@@ -31,9 +29,7 @@ for($i = 0; $i < count($friends); $i++) {
 echo '</table>';
 
 //numbers
-
 echo '<h3>numbers</h3>';
-
 
 echo '<h4>all</h4>';
 
