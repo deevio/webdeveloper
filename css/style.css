@@ -84,13 +84,12 @@ div#menu {
   transition: -webkit-transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94);
   transition: transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94);
   transition: transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94), -webkit-transform 0.6s cubic-bezier(0.07, 0.69, 0.17, 0.94); }
+  div#menu.show {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0); }
   div#menu ul li a {
     font-size: 2rem;
     color: #fff;
     text-decoration: none; }
-
-div#menu.show {
-  -webkit-transform: translate3d(0, 0, 0);
-  transform: translate3d(0, 0, 0); }
 
 /*# sourceMappingURL=style.css.map */

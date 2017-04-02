@@ -91,13 +91,14 @@ div#menu
     transition: -webkit-transform .6s cubic-bezier(.07,.69,.17,.94)
     transition: transform .6s cubic-bezier(.07,.69,.17,.94)
     transition: transform .6s cubic-bezier(.07,.69,.17,.94), -webkit-transform .6s cubic-bezier(.07,.69,.17,.94)
+    &.show
+        -webkit-transform: translate3d( 0, 0, 0)
+        transform: translate3d( 0, 0, 0)
     ul li a        
         font-size: 2rem
         color: $ternary-color
         text-decoration: none
 
-div#menu.show
-    -webkit-transform: translate3d( 0, 0, 0)
-    transform: translate3d( 0, 0, 0)
+
 
        
