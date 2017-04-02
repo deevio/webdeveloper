@@ -4,15 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">
-    <script src="js/main.js?v=<?php echo time(); ?>"></script>
+    <link rel="stylesheet" href="css/style.css?v=<?php echo time(); ?>">   
     <title>Webdeveloper</title>
 </head>
 <body>
 
 
 <div class="content">
-
     <?php 
         include 'includes/menu.php';
     ?>
@@ -24,5 +22,6 @@
     ?>
 </div>  
 
+    <script src="js/main.js?v=<?php echo time(); ?>"></script>
 </body>
 </html>
