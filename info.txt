@@ -1,0 +1,9 @@
+psr standard
+php storm
+
+
+echo
+<?=
+
+cmd
+sass --watch sass:css

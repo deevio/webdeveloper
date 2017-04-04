@@ -20,6 +20,13 @@
     <?php 
         include 'includes/example_01.php';
     ?>
+
+    <h2>02 Settings <a name="example_02" style="opacity: 0;">.</a></h2>
+    
+    <?php 
+        include 'includes/example_02.php';
+    ?>
+
 </div>  
 
     <script src="js/main.js?v=<?php echo time(); ?>"></script>
