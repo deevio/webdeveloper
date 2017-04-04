@@ -22,11 +22,10 @@ $a = 'medium';
 //}    
     
     
-
+//associative array
 $cars = [
     'opel'  => ['fabia', 'rapid', 'octavia'],
     'bmw'  => ['m5', 'X5', 'X6']   
-
 ];
 
 
@@ -56,10 +55,7 @@ echo '<table cellpadding="5" cellspacing="5" border="0">';
 
     echo '</tr>';
 
-    };
-
-
-    
+    };    
 
 echo '</table>';
 
@@ -96,7 +92,7 @@ var_dump($o);
 
 
 
-//odbc_fetch_object<?php
+//object 
 
     
 $car1 = (object) [
@@ -107,20 +103,20 @@ $car1 = (object) [
 
 $car2 = (object) [
     'model'  => 'rapid',
-    'pocetDveri' => '5',
+    'pocetDveri' => '3',
     'farba' => 'cierna', 
     ];  
 
 $car3 = (object) [
     'model'  => 'octavia',
-    'pocetDveri' => '5',
+    'pocetDveri' => '4',
     'farba' => 'biela', 
     ];  
 
 
 
 $cars = [  
-    'ford' => [$car1, $car2, $car3], 
+    'skoda' => [$car1, $car2, $car3], 
 ];
 
 
@@ -136,25 +132,18 @@ echo '<table cellpadding="5" cellspacing="5" border="0">';
 
     foreach($cars as $manufacturer => $carsByManufacturer){
     echo '<tr>';
-
     echo '<td valign="top">';  
     echo $manufacturer;  
     echo '</td>';
-
-    echo '<td valign="top">';   
-    foreach($carsByManufacturer as $car)  {
-        echo $car->model . ' - ' . $car->farba . ' - ' . $car->pocetDveri;
-        echo '<br>';
-    }
-    echo '</td>';
-
+        echo '<td valign="top">';   
+        foreach($carsByManufacturer as $car)  {
+            echo $car->model . ' - ' . $car->farba . ' - ' . $car->pocetDveri;
+            echo '<br>';
+        }
+        echo '</td>';
     echo '</tr>';
 
     };
-
-
-    
-
 echo '</table>';
 
 
