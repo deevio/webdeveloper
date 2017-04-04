@@ -31,12 +31,12 @@ $cars = [
 
 echo '<table cellpadding="5" cellspacing="5" border="0">';       
     echo '<tr>';
-    echo '<td valign="top">';  
+    echo '<th valign="top">';  
     echo 'Firma';  
-    echo '</td>';
-    echo '<td valign="top">'; 
+    echo '</th>';
+    echo '<th valign="top">'; 
     echo 'Model';  
-    echo '</td>';
+    echo '</th>';
     echo '</tr>';
 
     foreach($cars as $firma => $model){
@@ -113,21 +113,39 @@ $car3 = (object) [
     'farba' => 'biela', 
     ];  
 
+$car4 = (object) [
+    'model'  => 'passat',
+    'pocetDveri' => '5',
+    'farba' => 'zelena', 
+    ];   
+
+$car5 = (object) [
+    'model'  => 'bora',
+    'pocetDveri' => '3',
+    'farba' => 'henda', 
+    ];  
+
+$car6 = (object) [
+    'model'  => 'polo',
+    'pocetDveri' => '4',
+    'farba' => 'biela', 
+    ];  
 
 
 $cars = [  
     'skoda' => [$car1, $car2, $car3], 
+    'vw' => [$car4, $car5, $car6], 
 ];
 
 
 echo '<table cellpadding="5" cellspacing="5" border="0">';       
     echo '<tr>';
-    echo '<td valign="top">';  
+    echo '<th valign="top">';  
     echo 'Firma';  
-    echo '</td>';
-    echo '<td valign="top">'; 
+    echo '</th>';
+    echo '<th valign="top">'; 
     echo 'Model';  
-    echo '</td>';
+    echo '</th>';
     echo '</tr>';
 
     foreach($cars as $manufacturer => $carsByManufacturer){
