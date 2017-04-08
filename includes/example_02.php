@@ -122,7 +122,7 @@ $car4 = (object) [
 $car5 = (object) [
     'model'  => 'bora',
     'pocetDveri' => '3',
-    'farba' => 'henda', 
+    'farba' => 'hneda', 
     ];  
 
 $car6 = (object) [
@@ -163,10 +163,6 @@ echo '<table cellpadding="5" cellspacing="5" border="0">';
 
     };
 echo '</table>';
-
-
-
-
   
 
 ?>
