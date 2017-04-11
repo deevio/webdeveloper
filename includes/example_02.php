@@ -163,6 +163,19 @@ echo '<table cellpadding="5" cellspacing="5" border="0">';
 
     };
 echo '</table>';
+
+
+//funny programming
+$soup = 1;
+$cook = 10;
+$goodTaste = 10;
+
+for($i = 0; $i < $cook; $i++ ){
+
+    $lunch = $soup + $goodTaste;
+    $goodTaste--;
+    
+}
   
 
 ?>
