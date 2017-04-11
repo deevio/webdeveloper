@@ -138,7 +138,7 @@ $cars = [
 ];
 
 
-echo '<table cellpadding="5" cellspacing="5" border="0">';       
+    echo '<table cellpadding="5" cellspacing="5" border="0">';       
     echo '<tr>';
     echo '<th valign="top">';  
     echo 'Firma';  
@@ -162,7 +162,7 @@ echo '<table cellpadding="5" cellspacing="5" border="0">';
     echo '</tr>';
 
     };
-echo '</table>';
+    echo '</table>';
 
 
 //funny programming
