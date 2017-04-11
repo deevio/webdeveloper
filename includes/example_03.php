@@ -1,3 +1,8 @@
+
+<br>
+<br>
+<br>
+
 <?php
 
 //etc/hosts
@@ -30,4 +35,40 @@ C:\xampp\apache\conf\extra\httpd-vhosts.conf
 
 /// v etc/hosts
 */
+
+//homework
+//akama
+//serverless
+
+//yagni
+
+//xss
+//csrf
+
 ?>
+
+
+
+<?php 
+
+var_dump($_POST);
+
+echo '<pre>';
+    var_dump($_SERVER);
+    var_dump($_SESSION);
+    var_dump($_COOKIES);
+echo '</pre>';
+
+?>
+
+<form action="/" method="post">
+    <p>
+    <input type="email" value"" name="email" placeholder="email">
+    </p>
+    <p>
+    <textarea name="sprava" id="" cols="30" rows="10" placeholder="Správa"></textarea>
+    </p>
+    <input type="submit" value="Odoslať"  class="btn btn-success"/>
+</form>
+<br>
+<br>
