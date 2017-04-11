@@ -1,4 +1,4 @@
-<?php header("refresh: 2"); ?>
+<?php //header("refresh: 5"); ?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -29,6 +29,11 @@
         include 'includes/example_02.php';
     ?>
 
+    <h2>03  <a name="example_03" style="opacity: 0;">.</a></h2>
+    
+    <?php 
+        include 'includes/example_03.php';
+    ?>
 </div>  
 
     <script src="js/main.js?v=<?php echo time(); ?>"></script>
