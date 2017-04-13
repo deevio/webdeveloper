@@ -17,11 +17,18 @@
         include 'includes/example_02.php';
     ?>
 
-    <h2>03  <a name="example_03" style="opacity: 0;">.</a></h2>
+    <h2>03 Hosts <a name="example_03" style="opacity: 0;">.</a></h2>
     
     <?php 
         include 'includes/example_03.php';
     ?>
+
+    <h2>04 Router, JSON... <a name="example_04" style="opacity: 0;">.</a></h2>
+    
+    <?php 
+        include 'includes/example_04.php';
+    ?>
+
 </div>  
 
 

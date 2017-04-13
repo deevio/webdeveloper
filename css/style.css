@@ -62,7 +62,7 @@ div#dot {
   color: lightblue;
   transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
-  z-index: 0; }
+  z-index: 999; }
   div#dot:hover {
     box-shadow: 0 0 0.3rem 0.1rem lightgreen;
     -webkit-transform: rotate(360deg);

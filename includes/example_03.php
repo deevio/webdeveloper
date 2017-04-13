@@ -51,12 +51,13 @@ C:\xampp\apache\conf\extra\httpd-vhosts.conf
 
 <?php 
 
-var_dump($_POST);
+
 
 echo '<pre>';
     var_dump($_SERVER);
     var_dump($_SESSION);
     var_dump($_COOKIES);
+    var_dump($_POST);
 echo '</pre>';
 
 ?>
